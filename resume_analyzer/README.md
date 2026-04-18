@@ -182,12 +182,7 @@ Request body:
   }
 }
 ```
-
-## Notes for Beginners
-
 - If Gemini fails, the backend still returns a valid response using the local fallback model.
-- Keep both backend and frontend running in separate terminals.
-- Never commit your `.env` or API keys.
 
 ## License
 
