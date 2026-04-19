@@ -28,7 +28,7 @@ async function analyzeWithBackend(resumeText: string, jobDescription: string): P
     job_description: jobDescription || "(empty)"
   });
 
-  const httpResponse = await fetch('http://127.0.0.1:8001/analyze', {
+  const httpResponse = await fetch('https://ai-based-resume-analyzer-bxtq.onrender.com/analyze', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
